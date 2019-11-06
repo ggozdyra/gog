@@ -1,0 +1,38 @@
+
+
+.content {
+    background-image: linear-gradient($gray8, $gray9);
+
+    &__title {
+        padding: 35px 0 14px 0;
+        font-family: 'source_sans_probold';
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $black3;
+    }
+
+    &__banner {
+        position: relative;
+        height: 370px;
+        background-color: $black;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+        -webkit-animation: 1s ease-in-out forwards show-banner;
+        animation: 1s ease-in-out forwards show-banner;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    &__picture {
+        position: relative;
+        display: block;
+        height: 100%;
+    }
+
+}
+
+.content-list {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 -10px;
+    padding-bottom: 38px;
+}

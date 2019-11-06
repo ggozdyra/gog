@@ -1,0 +1,19 @@
+.menu {
+    position: relative;
+    display: flex;
+    height: 56px;
+    background-color: $lightGray;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.49) 99%, rgba(255, 255, 255, 0.5) 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 0 15px rgba(0, 0, 0, 0.15);
+     
+    &__container {
+        display: flex;
+        align-items: center;
+        z-index: 2;
+    }
+
+    &__logo {
+        display: flex;
+    }
+
+}
