@@ -24,7 +24,7 @@
     "typescript": "^3.6.4",
     "url-loader": "^2.2.0",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "build-dev": "webpack --mode development --watch"
